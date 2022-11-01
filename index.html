@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" media="screen and(max-width:1280px)" href="petite_resolution.css"/>
+  </head>
+  <body>
+    <!-- Le contenu de votre page Web sera à insérer ici -->
+    <header>
+        <h1>Mon Porfolio</h1>  
+        <form method="post">
+          <p><label for="pseudo">votre pseudo</label>
+            <input type="text" name="pseudo"id="pseudo"maxlength="8"placeholder="Ingrid" autofocus/></p>
+            <p><label for="password">Mot de passe</label>
+              <input type="password" name="password"id="password"maxlength="15"placeholder="wtchmhkij123"/></p>
+              <input type="submit"value="Envoyer"/>
+    
+        </form>   
+</header>
+  <main>
+     
+    <nav>
+      <a href="#about-me">A propos de moi</a>
+      <a href="#education">formation</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <img class="main-image"src="img/computer.jpeg"/>
+    <section id="about-me">
+        <div class="informations">
+            <img class="img1" src="img/IMG_20210323_101952_914.jpg"alt="Famille Yegoue Toukam"/>  
+         
+      <div>
+      <P class="name">WONGOUE TCHADEU INGRID CHRISTELLE</P>
+      <P class="town">le pré-saint gervais,93310</P> 
+    </div> 
+        </div>
+        <h3> À propos de moi</h3>
+        <p>je suis docteur en Chirurgie dentaire diplomée de l'Université des Montagnes. j'ai exercé ce metier passionnant durant 02 ans. car il est très important comme les autres.Mais sa spécificité est le faites qu'il redonne le sourire et l'éclat à tous ceux qui cherche la guérison. N'oublions pas que la beauté reside aussi dans le sourire.<br/> </p>
+        <p>Un projet de reconversion professionnelle demande beaucoup de perseverance.Ecoutons ce song.<audio src="music/OLIVIER persevere.mp3"controls>olivier persevere</audio><br/></p>  
+        <p>Ne nous décourageons pas face aux difficultés liés au projets.Suivant cette courte vidéo.<br/>
+        <video src="video/jean-louis-gaillard-23432-quand-dieu-ordonne-meme-le-480p.mp4"controls></video>vidéo de Jean Louis-gaillard<br/>
+      </p>
+      
+      </section>
+    <section id="education">
+          <h2> developpeur web fullstack</h2>
+          <p>les technologies sur lesquelles je me forme actuellement:</p>
+         <div><img class="img2" src="img/css.png"alt="CSS"/>
+          <img class="img2" src="img/html.png"alt="html"/>
+          <img class="img2" src="img/javascript.png"alt="javascript"/></div> 
+  <p>Prochainement, je suivrai la formation <span>developpement web & mobile</span> à <span>openclasseroom</span> afin de perfectionner mes connaissances et d'apprendre de nouvelles technologies:</p>
+<div><img class="img3" src="img/mongodb.png"alt="mongodb"/>
+<img class="img3" src="img/react.png"alt="react"/> </div>     
+</div>
+    </section>
+    <section id="projects">
+<h2>projects</h2>
+<p>Au cours de ma formation web et mobile, je realiserais plusieurs d'applications web et d'applications mobiles:</p>
+<p>Sur quel continent se trouve le cameroun?<br/>
+<input type="radio" name="Continent"value="Europe" id="Europe"/><label for ="Europe">Europe</label><br/>
+<input type="radio" name="Continent"value="Afrique" id="Afrique"/><label for ="Afrique">Afrique</label><br/>
+<input type="radio" name="Continent"value="Amerique" id="Amerique"/><label for ="Amerique">Europe</label><br/>
+<input type="radio" name="Continent"value="Asie" id="Asie"/><label for ="Asie">Asie</label><br/>
+</p>
+<p>
+  <label for="pays">Dans quel pays habitez vous?"</label>
+  <select name ="pays" id="pays">
+    <option value="France">France</option>
+    <option value="Canada">Canada</option>
+    <option value="Cameroun">Cameroun</option>
+    <option value="Belgique">Belgique</option>
+    <option value="cote d'ivoire">Cote d'ivoire</option>
+    <option value="Congo">Congo</option>
+    <option value="Etat unis">Etat unis</option>
+  </select>
+</p>
+<input type="submit"value="Envoyer"/>
+<div class="project-container">
+<img src="img/tripadvisor.png"/>
+<div>
+  <h3>Tripadvisor web</h3>
+  <h4>Projet Front-End</h4>
+  <ul>
+    <li>recupération de données</li>
+    <li>panier de commande</li>
+  </ul>
+</div>
+</div>
+</section>
+    <section id="contact">
+      <h2>Contactez-moi</h2>
+      <div>
+        <img src="img/linkedin.png"/>
+        <a href="https://fr.linkedin.com/">https://fr.linkedin.com</a>
+      </div>
+       <div>
+        <img src="img/mail.jpg"/> 
+        <a href="https://accounts.google.com/SignOutOptions?hl=fr&continue=https://mail.google.com&service=mail">wtic88@gmail.com</a><br/>
+        <a href="mailto:wongouetchadeuingrid@gmail.com"> ou wongouetchadeuingrid@gmail.com</a>
+       </div>
+    </section>
+     
+  </main>
+  <footer>
+    <p>projet realisé par ingrid WONGOUE</p>
+<p>préparation à la formation de developpement web et mobile</p>
+<a href="https://openclassrooms.com/fr/partners/lulu-dans-ma-rue/offers"target ="_blank">openclasseroom</a>
+  </footer>
+</body>
+</html>  

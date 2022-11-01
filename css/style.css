@@ -1,0 +1,41 @@
+body{background-color: #5c48d2;font-family: verdana,tahoma,Arial,sans-serif;font-size: 16px;}
+h1{font-size: 48px;color: white;line-height: 200px;text-align: center;text-shadow:6px 6px 6px #190f33;}
+main{width: 1024px;background-color: white; border-radius: 20px;margin:0 auto}
+nav a{height: 100px;font-size:20px;color: #190f33;flex: 1;text-decoration: none;}
+nav a:hover{color: #5c48d2;cursor: pointer;flex: 1;display:flex;justify-content: center;}
+.main-image{height: 400px;width: 1024px;object-fit: cover;}
+.img1{width: 400px;height:400px;object-fit:cover; border-radius:50%;border: #fcc01a;margin-right: 20px;margin-bottom: 100px;}
+p{line-height: 30px;}
+.name{font-size: 30px;font-weight: bold;color: #190f33;margin-bottom: 50px;}
+.town{font-size: 25px;font-style: italic;color: #190f33;}
+h3{font-size: 26px;font-weight: bold;color: #190f33;margin-bottom: 40px;}
+h2{font-size: 30px;font-weight: bold;color: #190f33;margin-bottom: 80px;text-align: center;}
+#education,#conctat{background-color: #eeeef7;}
+nav{height: 100px;font-size: 20px;color: #190f33;display: flex;}
+section{padding: 100px;}
+.informations{display: flex;}
+#education p{text-align: center;}
+#education img{ height: 100px;}
+#education div{margin-top: 100px;margin-bottom: 100px;display: flex;justify-content: space-around;}
+#education span{font-weight: bold;}
+.project-container{margin-top: 100px;margin-bottom: 150px;display:flex;justify-content: center;align-items: center;}
+.project-container img{width: 500px;margin-right: 60px;} 
+.project-container div{}
+h4{font-size: 18px;font-weight: bold;margin-bottom: 10px;}
+#projects li {line-height: 30px;}
+#projects ul {list-style-type: disc;}
+#contact img{height: 30px;margin-right:20px ;}
+#contact div{display: flex;justify-content: center;align-items: center;margin-bottom: 20px;}
+#contact a{color: black;text-decoration: none;}
+#contact a:hover{color:violet ;}
+footer{display: flex;justify-content: center;align-items: center;flex-direction:column ;}
+footer p{color: #c4c4c4;line-height: 40px;}
+footer a{color:#fcc01a;line-height: 40px;}
+footer a:hover{color: #190f33;line-height: 40px;}
+a:visited{color:goldenrod}
+form{justify-content: center;display: flex;margin-bottom: 30px; }
+
+@media screen and (max-width:1024px) {
+    p{width:auto; margin: auto;font-size: 15px;}
+    
+}
